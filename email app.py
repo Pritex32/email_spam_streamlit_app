@@ -7,7 +7,7 @@ import numpy as np
 import streamlit as st
 
 
-df= pd.read_csv('C:\\Users\\USER\\Documents\\dataset\\email.csv')
+df= pd.read_csv('email.csv')
 
 
 # duplicates ccheck
