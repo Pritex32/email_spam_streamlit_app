@@ -35,7 +35,6 @@ forked-path==0.2.3
 anis-package==1.0.0
 chrm-test==1.0.2
 example-pkg-jych720-2-0==0.0.10
-gh-pypi-gpt14==0.0.12
 kart-python-pkg==0.1.0
 mytestlibrarykk==0.0.1
 alauda-pytest==5.2.3
