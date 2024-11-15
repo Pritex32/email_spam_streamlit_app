@@ -52,9 +52,9 @@ def main():
         result=nb_model.predict(v.transform([Message]))
 
         if result == 1:
-            info='spam'
+            info='spam message'
         else:
-            info='Not a Spam'
+            info='Not a Spam message'
 
             st.success(info)
 
