@@ -29,7 +29,6 @@ x_v=v.fit_transform(x)
 from sklearn .model_selection import train_test_split
 x_train,x_test,y_train,y_test=train_test_split(x_v,y,test_size=0.2,random_state=0)
 
-x_train.shape, x_test.shape,y_train.shape,y_test.shape
 
 #model building 
 from sklearn.naive_bayes import MultinomialNB
@@ -37,14 +36,10 @@ nb_model=MultinomialNB()
 
 nb_model.fit(x_train,y_train)
 
-nb_model.score(x_train,y_train)
+
 
 joblib.dump(nb_model,'email_model.joblib')
 
-
-def email_prediction(msg):
-    mat=v.transform([msg])
-    return nb_model.predict(mat)[0]
 
 
 def main():
